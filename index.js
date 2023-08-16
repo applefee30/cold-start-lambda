@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const handler = async (event) => {
     try {
-        const response = await axios.get('https://tools.applefee.com/image-converter');
+        const response = await axios.get('https://your.domain.com/page');
         console.log('HTTP Request Status Code:', response.status);
         return {
             statusCode: 200,

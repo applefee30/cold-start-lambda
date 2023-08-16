@@ -1,1 +1,4 @@
 # cold-start-lambda
+```
+$ yarn
+```
